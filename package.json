@@ -34,5 +34,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "description": "Personal website gabrielhalg.dev",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/GabrielTechs/gabrielhalg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielTechs/gabrielhalg/issues"
+  },
+  "homepage": "https://github.com/GabrielTechs/gabrielhalg#readme"
 }
