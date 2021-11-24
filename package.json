@@ -17,7 +17,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\""
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "buildlight": "parcel build public/index.html --no-source-maps --no-optimize --public-url . --no-cache --dist-dir out",
+    "buildp": "parcel build public/index.html --no-source-maps --public-url . --no-cache --dist-dir out",
+    "startp": "parcel public/index.html"
   },
   "eslintConfig": {
     "extends": [
