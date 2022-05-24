@@ -13,3 +13,8 @@
   font-weight: 500;
   color: var(--tertiary-color, darkcyan);
 }
+.aboutme p {
+  margin-top: 36px;
+  font-size: 2rem;
+  color: var(--primary-color, darkcyan);
+}
