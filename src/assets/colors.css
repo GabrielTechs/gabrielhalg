@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #050436; /* --primary-color, darkcyan */
+  --secondary-color: #031a59; /* --secondary-color, darkcyan */
+  --tertiary-color: #031b8a; /* --tertiary-color, darkblue */
+  --quaternary-color: #030e0f; /* --quaternary-color, black */
+  --quinary-color: #2c3d54; /* --quinary-color, gray */
+  --warning-text-color: rgb(189, 13, 0); /* --warning-text-color, red */
+  --success-text-color: rgb(0, 194, 78); /* --success-text-color, green */
+  --shadow-color: rgb(0, 0, 0, 0.25); /* --shadow-color, black */
+  --text-light: #fcfcfc; /* --text-light, white */
+}
