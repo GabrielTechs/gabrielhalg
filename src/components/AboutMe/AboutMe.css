@@ -18,3 +18,9 @@
   font-size: 2rem;
   color: var(--primary-color, darkcyan);
 }
+
+@media (max-width: 1000px) {
+  .aboutme {
+    width: inherit;
+  }
+}
