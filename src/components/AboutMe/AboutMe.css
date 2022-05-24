@@ -1,0 +1,15 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  margin: 36px;
+  width: 63%;
+}
+.aboutme h1 {
+  font-size: 3rem;
+  color: var(--secondary-color, darkcyan);
+}
+.aboutme h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: var(--tertiary-color, darkcyan);
+}
