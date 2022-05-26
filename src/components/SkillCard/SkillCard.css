@@ -4,3 +4,17 @@
   align-items: center;
   flex-direction: column;
 }
+.skillcard h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-color, darkcyan);
+}
+
+.skillcard-icon {
+  font-size: 3rem;
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: var(--primary-color, darkcyan);
+}
