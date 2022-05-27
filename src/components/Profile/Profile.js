@@ -3,6 +3,7 @@ import "./Profile.css";
 
 import AboutMe from "../AboutMe/AboutMe";
 import ProfileImage from "../ProfileImage/ProfileImage";
+import Skills from "../Skills/Skills";
 
 const Profile = () => {
   return (
@@ -11,6 +12,7 @@ const Profile = () => {
         <AboutMe />
         <ProfileImage />
       </div>
+      <Skills />
     </div>
   );
 };
