@@ -13,3 +13,9 @@
   gap: 36px;
   padding: 36px;
 }
+
+@media (max-width: 1000px) {
+  .skills-card-container {
+    padding: 16px;
+  }
+}
