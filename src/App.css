@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100vh;
+  background: linear-gradient(
+    150deg,
+    var(--primary-color, cadetblue) 15%,
+    var(--secondary-color, cadetblue) 50%,
+    var(--tertiary-color, darkblue) 85%
+  );
+}
+.app {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .app {
+    flex-direction: column-reverse;
+  }
+}
