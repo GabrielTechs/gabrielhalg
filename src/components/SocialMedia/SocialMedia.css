@@ -19,3 +19,20 @@
   border-left: 2px solid var(--bg-light, white);
   height: 69px;
 }
+
+@media (max-width: 1000px) {
+  .social-media {
+    position: relative;
+    flex-direction: row;
+    height: 69px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .social-media-icon {
+    margin: 8px;
+  }
+  .social-media-vl {
+    display: none;
+  }
+}
