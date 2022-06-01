@@ -14,3 +14,8 @@
   margin-bottom: 16px;
   color: var(--bg-light, white);
 }
+
+.social-media-vl {
+  border-left: 2px solid var(--bg-light, white);
+  height: 69px;
+}
