@@ -1,0 +1,11 @@
+.social-media {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  height: 100vh;
+  width: 70px;
+  align-items: center;
+  justify-content: flex-end;
+}
