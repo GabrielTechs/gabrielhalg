@@ -21,6 +21,7 @@ const SocialMedia = () => {
       >
         <FaLinkedin />
       </a>
+      <div className="social-media-vl" />
     </div>
   );
 };
