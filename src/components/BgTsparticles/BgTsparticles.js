@@ -1,4 +1,5 @@
 import React from "react";
+import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 const BgTsparticles = () => {
@@ -7,7 +8,13 @@ const BgTsparticles = () => {
   };
 
   const particlesLoaded = () => {};
-  return <div></div>;
+  return (
+    <Particles
+      className="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+    />
+  );
 };
 
 export default BgTsparticles;
