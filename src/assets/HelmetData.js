@@ -1,7 +1,8 @@
 import React from "react";
+import Helmet from "react-helmet";
 
 const HelmetData = (props) => {
-  return <div>Helmet</div>;
+  return <Helmet></Helmet>;
 };
 
 export default HelmetData;
