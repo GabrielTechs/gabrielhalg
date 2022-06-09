@@ -8,4 +8,5 @@
   --success-text-color: rgb(0, 194, 78); /* --success-text-color, green */
   --shadow-color: rgb(0, 0, 0, 0.25); /* --shadow-color, black */
   --text-light: #fcfcfc; /* --text-light, white */
+  --bg-light: #e0e0f0; /* --bg-light, white */
 }
