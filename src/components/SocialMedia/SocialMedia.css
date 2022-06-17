@@ -1,5 +1,5 @@
 .social-media {
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
   height: 69px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .social-media {
     position: relative;
     flex-direction: row;
