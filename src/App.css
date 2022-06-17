@@ -14,12 +14,3 @@ html {
     var(--tertiary-color, darkblue) 85%
   );
 }
-.app {
-  display: flex;
-}
-
-@media (max-width: 1000px) {
-  .app {
-    flex-direction: column-reverse;
-  }
-}
