@@ -1,4 +1,5 @@
 {
+  "homepage": "https://gabrieltechs.github.io/gabrielhalg/",
   "name": "gabrielhalg",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,8 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
-    "buildlight": "parcel build public/index.html --no-source-maps --no-optimize --public-url . --no-cache --dist-dir out",
-    "build": "parcel build public/index.html --no-source-maps --public-url . --no-cache --dist-dir out",
+    "buildlight": "parcel build public/index.html --no-source-maps --no-scope-hoist --no-optimize --public-url . --no-cache --dist-dir out",
+    "build": "parcel build public/index.html --no-source-maps --no-scope-hoist --public-url . --no-cache --dist-dir out",
     "start": "parcel public/index.html",
     "startbuild": "parcel out/index.html"
   },
@@ -39,11 +40,12 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.5.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "process": "^0.11.10"
   },
   "description": "Personal website gabrielhalg.dev",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://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@github.com/GabrielTechs/gabrielhalg.git"
@@ -53,6 +55,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GabrielTechs/gabrielhalg/issues"
-  },
-  "homepage": "https://github.com/GabrielTechs/gabrielhalg#readme"
+  }
 }
