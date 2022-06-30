@@ -15,6 +15,8 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "buildlight": "parcel build public/index.html --no-source-maps --no-scope-hoist --no-optimize --public-url . --no-cache --dist-dir out",
     "build": "parcel build public/index.html --no-source-maps --no-scope-hoist --public-url . --no-cache --dist-dir out",
     "start": "parcel public/index.html",
